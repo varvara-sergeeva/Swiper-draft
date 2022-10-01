@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: $ff;
+  font-size: 20px;
+  height: 100%;
+  background-color: $colorBody;
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  &__header {
+    background-color: #424242;
+  }
+
+  &__main {
+    flex: 1 1 auto;
+    margin-top: 70px;
+  }
+
+  &__footer {
+    background-color: #424242;
+    min-height: 150px;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+

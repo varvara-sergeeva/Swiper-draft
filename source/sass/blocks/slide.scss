@@ -1,0 +1,41 @@
+.slide {
+  &__body {
+    width: 550px;
+    overflow-y: auto;
+    background-color: $colorSlide;
+    border: 2px solid $sliderBorder;
+    border-radius: 10px;
+    padding: 25px 15px;
+  }
+  &__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: $sliderText;
+    h3,
+    p {
+      margin: 0;
+    }
+    p {
+      font-weight: bold;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__img {
+    flex-basis: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: $sliderText;
+    border-radius: 10px;
+  }
+
+  &__text {
+    flex-basis: 50%;
+    padding-left: 10px;
+  }
+}
